@@ -1,0 +1,4 @@
+repository "space-scraper 2025-02-14_18-12-39/space-scraper@18967136486888@cloud"
+  path "/"
+    br "/main"
+    co "/main"
