@@ -1105,6 +1105,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 442412129}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &447820570 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1032530342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &448251528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1487,6 +1493,7 @@ GameObject:
   - component: {fileID: 884318662}
   - component: {fileID: 884318666}
   - component: {fileID: 884318665}
+  - component: {fileID: 884318667}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -1508,6 +1515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -944628639613478452, guid: 21514a3f646f940e39fc12087f09766d, type: 3}
 --- !u!114 &884318663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1575,6 +1583,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Timeout: 10
   m_XROrigin: {fileID: 884318663}
+--- !u!114 &884318667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884318661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687671dbc56844f289e2531867d8ac7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoot: {fileID: -7965751181087094620, guid: 21514a3f646f940e39fc12087f09766d, type: 3}
+  bulletPrefab: {fileID: 6681766636307311056, guid: d86ac54c80bc64d4da120230a87a4110,
+    type: 3}
+  firePoint: {fileID: 447820570}
+  secondsBetweenShoot: 0.2
 --- !u!1001 &924699093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2341,6 +2366,56 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1793013435}
     m_Modifications:
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0088
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0765
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225990123340773805, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8325601548976739271, guid: c3e8ab75a1f7fc047afcd5e056e57d9e,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2416,7 +2491,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sci Fi Pistol
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
