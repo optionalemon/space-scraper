@@ -3181,6 +3181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1346515566}
   - component: {fileID: 1346515567}
+  - component: {fileID: 1346515568}
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
@@ -3449,6 +3450,87 @@ MonoBehaviour:
     m_Reference: {fileID: -1636515391019944688, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &1346515568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346515565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0d5410ecb67304ebf6ccfa77fe91a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  haptic:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Haptic
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 7c400173-a247-43b7-894a-3291df81fb2b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 4a294e72-9d4d-41d6-b1f9-2b25236d8d79
+        m_Path: <XRController>{LeftHand}/{Haptic}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Haptic
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  _amplitude: 1
+  _frequency: 50
+  _duration: 0.1
+  controllerVelocity:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Controller Velocity
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d6452e4c-7eaa-47b3-ba43-597ca43b867a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 300dc053-1127-4e4d-b2a6-d1ddc9205e12
+        m_Path: <HandInteraction>{LeftHand}/devicePose/velocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Velocity
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  controllerAngularVelocity:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Controller Angular Velocity
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 606f1f0b-97b6-4420-9e89-d0a87c5ed48f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: d38b160e-7cd8-40ac-bc8d-5eb1fea4cc0e
+        m_Path: <HandInteractionPoses>{LeftHand}/devicePose/angularVelocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Angular Velocity
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  grabRadius: 1
+  grabMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1001 &1363444974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4101,6 +4183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793013435}
   - component: {fileID: 1793013436}
+  - component: {fileID: 1793013437}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
@@ -4369,6 +4452,119 @@ MonoBehaviour:
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &1793013437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793013434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0d5410ecb67304ebf6ccfa77fe91a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  haptic:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Haptic
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 08ce4f74-c3e4-472e-ba3b-b29774eeec18
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 961cbd8f-3dc7-4353-a58a-9a2253f4327a
+        m_Path: <XRController>{RightHand}/{Haptic}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Haptic
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  _amplitude: 1
+  _frequency: 50
+  _duration: 0.1
+  controllerVelocity:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Controller Velocity
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9c5d6a63-c0a7-4a38-8df1-f3bbaafd8528
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: c9e017a1-376f-4634-b04e-32d4ddc0dcca
+        m_Path: <HandInteraction>{RightHand}/devicePose/velocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Velocity
+        m_Flags: 0
+      - m_Name: 
+        m_Id: df8b5d62-e90e-4a4d-b435-5c6bdaf5634e
+        m_Path: <QuestProTouchController>{RightHand}/devicePose/velocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Velocity
+        m_Flags: 0
+      - m_Name: 
+        m_Id: b7ac7167-2088-4a34-a5e4-5b91a00f80c3
+        m_Path: <QuestTouchPlusController>{RightHand}/devicePose/velocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Velocity
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  controllerAngularVelocity:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Controller Angular Velocity
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b1003403-705c-4597-91e8-cbea48c16bd3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: fc03c6c5-3e07-45b5-80b7-8a411276b202
+        m_Path: <HandInteraction>{RightHand}/devicePose/angularVelocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Angular Velocity
+        m_Flags: 0
+      - m_Name: 
+        m_Id: c5801749-967d-411b-9b9e-56911adcda58
+        m_Path: <QuestProTouchController>{RightHand}/devicePose/angularVelocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Angular Velocity
+        m_Flags: 0
+      - m_Name: 
+        m_Id: 5dd06609-dd37-4371-874b-ed37146a9c8f
+        m_Path: <QuestTouchPlusController>{RightHand}/devicePose/angularVelocity
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Controller Angular Velocity
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  grabRadius: 1
+  grabMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1816347146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
