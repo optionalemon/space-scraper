@@ -77,3 +77,6 @@ crashlytics-build.properties
 plastic-global-config.xml
 
 .vscode/
+
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
