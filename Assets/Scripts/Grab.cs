@@ -20,7 +20,7 @@ public class VRGrab : MonoBehaviour
     // public InputActionProperty controllerAngularVelocity;
 
     public float grabRadius;
-    public LayerMask grabMask;
+    private LayerMask grabMask = LayerMask.GetMask("Grabbable", "Bullets");
 
     void Start()
     {
