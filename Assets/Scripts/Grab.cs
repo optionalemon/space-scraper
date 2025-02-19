@@ -16,8 +16,8 @@ public class VRGrab : MonoBehaviour
     public float _frequency = 50.0f;
     public float _duration = 0.1f;
 
-    public InputActionProperty controllerVelocity;
-    public InputActionProperty controllerAngularVelocity;
+    // public InputActionProperty controllerVelocity;
+    // public InputActionProperty controllerAngularVelocity;
 
     public float grabRadius;
     public LayerMask grabMask;
@@ -81,13 +81,11 @@ public class VRGrab : MonoBehaviour
         {
             grabbedObject.transform.parent = null;
             grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-            if (controllerVelocity != null && controllerVelocity.action != null && controllerVelocity.action.activeControl != null)
+            VRControllerVelocity controllerVelocity = GetComponent<VRControllerVelocity>();
+            if (controllerVelocity != null)
             {
-                grabbedObject.GetComponent<Rigidbody>().velocity = controllerVelocity.action.ReadValue<Vector3>();
-            }
-            if (controllerAngularVelocity != null && controllerAngularVelocity.action != null && controllerAngularVelocity.action.activeControl != null)
-            {
-                grabbedObject.GetComponent<Rigidbody>().angularVelocity = controllerAngularVelocity.action.ReadValue<Vector3>();
+                grabbedObject.GetComponent<Rigidbody>().velocity = controllerVelocity.Velocity * 1.5f;
+                grabbedObject.GetComponent<Rigidbody>().angularVelocity = controllerVelocity.AngularVelocity;
             }
             grabbedObject = null;
         }
