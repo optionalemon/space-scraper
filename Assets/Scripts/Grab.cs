@@ -20,12 +20,14 @@ public class VRGrab : MonoBehaviour
     // public InputActionProperty controllerAngularVelocity;
 
     public float grabRadius;
-    private LayerMask grabMask = LayerMask.GetMask("Grabbable", "Bullets");
+    private LayerMask grabMask;
 
     void Start()
     {
         if (grabAction == null || haptic == null)
             return;
+
+        grabMask = LayerMask.GetMask("Grabbable", "Bullets");
 
         grabAction.action.Enable();
         haptic.action.Enable();
@@ -66,11 +68,16 @@ public class VRGrab : MonoBehaviour
                     closestHit = i;
                 }
             }
+            if (hits[closestHit].transform.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
+                grabbing = false;
 
-            grabbedObject = hits[closestHit].transform.gameObject;
-            grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
-            grabbedObject.transform.position = transform.position;
-            grabbedObject.transform.parent = transform;
+
+            } else {
+                grabbedObject = hits[closestHit].transform.gameObject;
+                grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
+                grabbedObject.transform.position = transform.position;
+                grabbedObject.transform.parent = transform;
+            }  
         }
     }
 
