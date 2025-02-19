@@ -20,12 +20,20 @@ public class VRGrab : MonoBehaviour
     // public InputActionProperty controllerAngularVelocity;
 
     public float grabRadius;
-    public LayerMask grabMask;
+    private LayerMask grabMask;
+
+    public GameObject gun;
+    private GunController gunController;
 
     void Start()
     {
         if (grabAction == null || haptic == null)
             return;
+        if (gun != null) {
+            gunController = gun.GetComponent<GunController>();
+        }
+
+        grabMask = LayerMask.GetMask("Grabbable", "Bullet");
 
         grabAction.action.Enable();
         haptic.action.Enable();
@@ -66,11 +74,12 @@ public class VRGrab : MonoBehaviour
                     closestHit = i;
                 }
             }
-
+            
             grabbedObject = hits[closestHit].transform.gameObject;
             grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
             grabbedObject.transform.position = transform.position;
             grabbedObject.transform.parent = transform;
+            Debug.Log(grabbedObject.layer);
         }
     }
 
@@ -79,15 +88,24 @@ public class VRGrab : MonoBehaviour
         grabbing = false;
         if (grabbedObject != null)
         {
-            grabbedObject.transform.parent = null;
-            grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-            VRControllerVelocity controllerVelocity = GetComponent<VRControllerVelocity>();
-            if (controllerVelocity != null)
-            {
-                grabbedObject.GetComponent<Rigidbody>().velocity = controllerVelocity.Velocity * 1.5f;
-                grabbedObject.GetComponent<Rigidbody>().angularVelocity = controllerVelocity.AngularVelocity;
-            }
-            grabbedObject = null;
+            if (grabbedObject.layer == LayerMask.NameToLayer("Bullet")) {
+                
+                if (gun != null) {
+                    gunController.loadBullets();
+                }
+                Destroy(grabbedObject);
+
+            } else {
+                grabbedObject.transform.parent = null;
+                grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+                VRControllerVelocity controllerVelocity = GetComponent<VRControllerVelocity>();
+                if (controllerVelocity != null)
+                {
+                    grabbedObject.GetComponent<Rigidbody>().velocity = controllerVelocity.Velocity * 1.5f;
+                    grabbedObject.GetComponent<Rigidbody>().angularVelocity = controllerVelocity.AngularVelocity;
+                }
+                grabbedObject = null;
+            } 
         }
     }
 }
