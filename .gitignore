@@ -76,5 +76,4 @@ crashlytics-build.properties
 .plastic/
 plastic-global-config.xml
 
-# Ignore VS Code settings
 .vscode/
