@@ -221,6 +221,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 22146621}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &37942385 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6506404, guid: 64b3f36e835346747865afbf6cf62acf,
+    type: 3}
+  m_PrefabInstance: {fileID: 52490515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &38575853 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5466478090028049981, guid: 24ef57f077e943148aed57483e749b58,
@@ -991,9 +997,10 @@ MonoBehaviour:
   - {fileID: 330982361}
   - {fileID: 89661734}
   - {fileID: 1486276476}
-  - {fileID: 687409815}
-  - {fileID: 448393090}
-  - {fileID: 1811724089}
+  - {fileID: 37942385}
+  - {fileID: 2033566381}
+  - {fileID: 330982362}
+  - {fileID: 330982361}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1160,6 +1167,12 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 6573064, guid: 3fb07e96bb0cae643a28994c86ddc64e,
     type: 3}
   m_PrefabInstance: {fileID: 399222946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &330982362 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6548480, guid: f18932879bb23b84ca5370b65419ee41,
+    type: 3}
+  m_PrefabInstance: {fileID: 1619019983}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &341189928 stripped
 Transform:
@@ -1607,12 +1620,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 448251528}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &448393090 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6528180, guid: 3fb07e96bb0cae643a28994c86ddc64e,
-    type: 3}
-  m_PrefabInstance: {fileID: 399222946}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &452973539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 408362, guid: 3fb07e96bb0cae643a28994c86ddc64e,
@@ -2000,12 +2007,6 @@ Transform:
   - {fileID: 974646116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &687409815 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6535062, guid: f18932879bb23b84ca5370b65419ee41,
-    type: 3}
-  m_PrefabInstance: {fileID: 248395236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &810872915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 602924340903678558, guid: 24ef57f077e943148aed57483e749b58,
@@ -3422,7 +3423,7 @@ MonoBehaviour:
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
   m_AllowHoverHapticsWhileSelecting: 1
-  m_LineType: 0
+  m_LineType: 1
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
   m_RayOriginTransform: {fileID: 0}
@@ -4374,12 +4375,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1811724089 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6525426, guid: 3fb07e96bb0cae643a28994c86ddc64e,
-    type: 3}
-  m_PrefabInstance: {fileID: 399222946}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1816347146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
@@ -4652,6 +4647,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 468542, guid: 861fea087c7148246939515a3d957d2e,
     type: 3}
   m_PrefabInstance: {fileID: 2019159974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2033566381 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6548480, guid: f18932879bb23b84ca5370b65419ee41,
+    type: 3}
+  m_PrefabInstance: {fileID: 248395236}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2037345172
 PrefabInstance:
