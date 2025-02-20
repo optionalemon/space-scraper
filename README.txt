@@ -16,4 +16,4 @@ Downloaded packages or objects used
 - Used Prefabs inside for the oculus hand, the pistol, and the space waste
 
 3. Weapons Pack - Bullets https://assetstore.unity.com/packages/3d/props/weapons/weapons-pack-bullets-302702
-- Used a bullet prefab for the shooting (SM_Bullet_06.prefab). The prefab does NOT come with the script (Bullet.cs) and the attached Rigidbody component.
+- Used a bullet prefab for the shooting (SM_Bullet_06.prefab). The prefab does NOT come with the script (Bullet.cs), Capsule Collider, and the attached Rigidbody component. All three were added manually by the team.
