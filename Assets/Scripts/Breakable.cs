@@ -37,6 +37,17 @@ public class Breakable : MonoBehaviour
             Debug.Log("Children: " + breakablePieces.Count);
             Break();
         }
+        else if (collision.gameObject.CompareTag("Spaceship"))
+        {
+            Debug.Log("Collide Spaceship");
+            Rigidbody rb = GetComponent<Rigidbody>();
+            Vector3 reflection = Vector3.Reflect(rb.velocity, collision.contacts[0].normal);
+            if (reflection.magnitude < 1f) // Ensure it moves enough
+            {
+                reflection = reflection.normalized * 2f; // Give it a push
+            }
+            rb.velocity = reflection;
+        }
     }
 
     public void Break() {
