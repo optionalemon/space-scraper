@@ -205,6 +205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Waste Small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2495809265442608640, guid: 1ffc730a74f52ec49be45b03fc6b128f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -233,6 +238,10 @@ PrefabInstance:
     - target: {fileID: 115042, guid: 64b3f36e835346747865afbf6cf62acf, type: 3}
       propertyPath: m_Name
       value: Corridor_I
+      objectReference: {fileID: 0}
+    - target: {fileID: 115042, guid: 64b3f36e835346747865afbf6cf62acf, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 464552, guid: 64b3f36e835346747865afbf6cf62acf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -596,6 +605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: window_big_blocker (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -858,6 +871,10 @@ PrefabInstance:
     - target: {fileID: 126730, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
       propertyPath: m_Name
       value: Corridor_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 126730, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 467598, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1162,6 +1179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: window_big_blocker (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1278,6 +1299,10 @@ PrefabInstance:
     - target: {fileID: 148804, guid: 3fb07e96bb0cae643a28994c86ddc64e, type: 3}
       propertyPath: m_Name
       value: Corridor_L
+      objectReference: {fileID: 0}
+    - target: {fileID: 148804, guid: 3fb07e96bb0cae643a28994c86ddc64e, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 408362, guid: 3fb07e96bb0cae643a28994c86ddc64e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1460,6 +1485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: desk
       objectReference: {fileID: 0}
+    - target: {fileID: 153876, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 445452, guid: 14f2f01264616214ba79f88c8f46c15f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.31
@@ -1528,6 +1557,10 @@ PrefabInstance:
     - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_Name
       value: window_big_blocker (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2373,6 +2406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_big
       objectReference: {fileID: 0}
+    - target: {fileID: 183158, guid: b38a3290156af5046a449900e3163984, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 497032, guid: b38a3290156af5046a449900e3163984, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -2542,6 +2579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: window_big_blocker (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -2676,6 +2717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Waste Small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2495809265442608640, guid: 1ffc730a74f52ec49be45b03fc6b128f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2698,6 +2744,10 @@ PrefabInstance:
     - target: {fileID: 194542, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
       propertyPath: m_Name
       value: window_big_corner_far
+      objectReference: {fileID: 0}
+    - target: {fileID: 194542, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 492770, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2927,7 +2977,7 @@ GameObject:
   - component: {fileID: 1036426982}
   m_Layer: 0
   m_Name: Static Environment
-  m_TagString: Untagged
+  m_TagString: Spaceship
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2971,6 +3021,9 @@ Transform:
   - {fileID: 22146622}
   - {fileID: 2037345173}
   - {fileID: 977668425}
+  - {fileID: 1259668812}
+  - {fileID: 1710620768}
+  - {fileID: 1545119019}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1043803242 stripped
@@ -2990,6 +3043,10 @@ PrefabInstance:
     - target: {fileID: 194542, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
       propertyPath: m_Name
       value: window_big_corner_far (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 194542, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 492770, guid: f1e5cb2f014b6834b849c918ab359508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3145,6 +3202,10 @@ PrefabInstance:
     - target: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
       propertyPath: m_Name
       value: door_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 115324, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 415124, guid: 820591594dcfa124d8a9c5d016d6c22c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3594,6 +3655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf
       objectReference: {fileID: 0}
+    - target: {fileID: 179106, guid: db49253e161c21440b7ccf6d59865098, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5
@@ -3656,6 +3721,10 @@ PrefabInstance:
     - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_Name
       value: window_big_blocker
+      objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3926,6 +3995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: art_4
       objectReference: {fileID: 0}
+    - target: {fileID: 129022, guid: d958a3a196d271942ba6a229a5d5ccd8, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 434880, guid: d958a3a196d271942ba6a229a5d5ccd8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7
@@ -3989,6 +4062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: window_big_blocker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 181818, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -4040,6 +4117,56 @@ BoxCollider:
     type: 3}
   m_PrefabInstance: {fileID: 399222946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1545119018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1545119019}
+  - component: {fileID: 1545119020}
+  m_Layer: 0
+  m_Name: TargetSpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1545119019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545119018}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.95, y: 2.44, z: 3.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1036426982}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1545119020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545119018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f7ba8a78c8cc64bb8a8969f4583273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rockPrefab: {fileID: 4618974337585498635, guid: dc40d4936f6d7f44a88297e1d42d288a,
+    type: 3}
+  minSpeed: 10
+  maxSpeed: 20
+  spawnInterval: 2
+  rockPerInterval: 5
 --- !u!1 &1598518737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,6 +4209,10 @@ PrefabInstance:
     - target: {fileID: 126730, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
       propertyPath: m_Name
       value: Corridor_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 126730, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 457508, guid: f18932879bb23b84ca5370b65419ee41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4180,6 +4311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column_end
       objectReference: {fileID: 0}
+    - target: {fileID: 137420, guid: d10d3ce46f3a5d84cbcccd4f14bf3958, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 485498, guid: d10d3ce46f3a5d84cbcccd4f14bf3958, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.11
@@ -4254,6 +4389,10 @@ PrefabInstance:
     - target: {fileID: 188452, guid: d78f2ba16003e6e4681b4702d6dcb72e, type: 3}
       propertyPath: m_Name
       value: console
+      objectReference: {fileID: 0}
+    - target: {fileID: 188452, guid: d78f2ba16003e6e4681b4702d6dcb72e, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 460470, guid: d78f2ba16003e6e4681b4702d6dcb72e, type: 3}
       propertyPath: m_LocalScale.x
@@ -4492,6 +4631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_panel_1
       objectReference: {fileID: 0}
+    - target: {fileID: 135284, guid: a5cd29a93d7ae2d488fa0376d0d08462, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     - target: {fileID: 428906, guid: a5cd29a93d7ae2d488fa0376d0d08462, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4632,6 +4775,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Waste Small
       objectReference: {fileID: 0}
+    - target: {fileID: 2495809265442608640, guid: 1ffc730a74f52ec49be45b03fc6b128f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4654,6 +4802,10 @@ PrefabInstance:
     - target: {fileID: 118386, guid: 861fea087c7148246939515a3d957d2e, type: 3}
       propertyPath: m_Name
       value: desk_no_computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 118386, guid: 861fea087c7148246939515a3d957d2e, type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     - target: {fileID: 468542, guid: 861fea087c7148246939515a3d957d2e, type: 3}
       propertyPath: m_LocalScale.x
@@ -4804,6 +4956,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Space Waste Small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495809265442608640, guid: 1ffc730a74f52ec49be45b03fc6b128f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4966,6 +5123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Space Waste Small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495809265442608640, guid: 1ffc730a74f52ec49be45b03fc6b128f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
