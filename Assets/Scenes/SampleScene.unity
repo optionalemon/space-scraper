@@ -221,6 +221,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 22146621}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &37942385 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6506404, guid: 64b3f36e835346747865afbf6cf62acf,
+    type: 3}
+  m_PrefabInstance: {fileID: 52490515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &38575853 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5466478090028049981, guid: 24ef57f077e943148aed57483e749b58,
@@ -991,9 +997,10 @@ MonoBehaviour:
   - {fileID: 330982361}
   - {fileID: 89661734}
   - {fileID: 1486276476}
-  - {fileID: 687409815}
-  - {fileID: 448393090}
-  - {fileID: 1811724089}
+  - {fileID: 37942385}
+  - {fileID: 2033566381}
+  - {fileID: 330982362}
+  - {fileID: 330982361}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1160,6 +1167,12 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 6573064, guid: 3fb07e96bb0cae643a28994c86ddc64e,
     type: 3}
   m_PrefabInstance: {fileID: 399222946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &330982362 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6548480, guid: f18932879bb23b84ca5370b65419ee41,
+    type: 3}
+  m_PrefabInstance: {fileID: 1619019983}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &341189928 stripped
 Transform:
@@ -1606,12 +1619,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428772, guid: 73eea014833549e42853d51ff2b37c32,
     type: 3}
   m_PrefabInstance: {fileID: 448251528}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &448393090 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6528180, guid: 3fb07e96bb0cae643a28994c86ddc64e,
-    type: 3}
-  m_PrefabInstance: {fileID: 399222946}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &452973539 stripped
 Transform:
@@ -3306,6 +3313,131 @@ RectTransform:
   m_AnchoredPosition: {x: 0.501, y: 0.529}
   m_SizeDelta: {x: 1, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+  m_GameObject: {fileID: 810872915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 1
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_TargetPriorityMode: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_AllowHoverAudioWhileSelecting: 1
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
+  m_AllowHoverHapticsWhileSelecting: 1
+  m_LineType: 1
+  m_BlendVisualLinePoints: 1
+  m_MaxRaycastDistance: 30
+  m_RayOriginTransform: {fileID: 0}
+  m_ReferenceFrame: {fileID: 0}
+  m_Velocity: 16
+  m_Acceleration: 9.8
+  m_AdditionalGroundHeight: 0.1
+  m_AdditionalFlightTime: 0.5
+  m_EndPointDistance: 30
+  m_EndPointHeight: -10
+  m_ControlPointDistance: 10
+  m_ControlPointHeight: 5
+  m_SampleFrequency: 20
+  m_HitDetectionType: 0
+  m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
+  m_RaycastMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+  m_RaycastSnapVolumeInteraction: 1
+  m_HitClosestOnly: 0
+  m_HoverToSelect: 0
+  m_HoverTimeToSelect: 0.5
+  m_AutoDeselect: 0
+  m_TimeToAutoDeselect: 3
+  m_EnableUIInteraction: 1
+  m_BlockUIOnInteractableSelection: 1
+  m_AllowAnchorControl: 1
+  m_UseForceGrab: 1
+  m_RotateSpeed: 180
+  m_TranslateSpeed: 1
+  m_AnchorRotateReferenceFrame: {fileID: 0}
+  m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
 --- !u!1001 &1260733964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4230,12 +4362,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1811724089 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6525426, guid: 3fb07e96bb0cae643a28994c86ddc64e,
-    type: 3}
-  m_PrefabInstance: {fileID: 399222946}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1816347146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
@@ -4508,6 +4634,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 468542, guid: 861fea087c7148246939515a3d957d2e,
     type: 3}
   m_PrefabInstance: {fileID: 2019159974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2033566381 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6548480, guid: f18932879bb23b84ca5370b65419ee41,
+    type: 3}
+  m_PrefabInstance: {fileID: 248395236}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2037345172
 PrefabInstance:
