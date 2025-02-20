@@ -318,67 +318,6 @@ MonoBehaviour:
   teleportationProvider: {fileID: 4447172718179537936}
   teleportButton: 11
   controller: {fileID: 0}
-  lineVisual: {fileID: 0}
-  validTeleportGradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  invalidTeleportGradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
 --- !u!4 &60805124
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,6 +974,9 @@ MonoBehaviour:
   - {fileID: 330982361}
   - {fileID: 89661734}
   - {fileID: 1486276476}
+  - {fileID: 687409815}
+  - {fileID: 448393090}
+  - {fileID: 1811724089}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1638,6 +1580,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 448251528}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &448393090 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6528180, guid: 3fb07e96bb0cae643a28994c86ddc64e,
+    type: 3}
+  m_PrefabInstance: {fileID: 399222946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &452973539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 408362, guid: 3fb07e96bb0cae643a28994c86ddc64e,
@@ -1919,6 +1867,12 @@ Transform:
   - {fileID: 974646116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &687409815 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6535062, guid: f18932879bb23b84ca5370b65419ee41,
+    type: 3}
+  m_PrefabInstance: {fileID: 248395236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &716232835
 GameObject:
   m_ObjectHideFlags: 0
@@ -4342,6 +4296,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1811724089 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6525426, guid: 3fb07e96bb0cae643a28994c86ddc64e,
+    type: 3}
+  m_PrefabInstance: {fileID: 399222946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1816347146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
