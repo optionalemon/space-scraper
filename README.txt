@@ -1,12 +1,12 @@
 Context
-You are aboard a spaceship traveling through space when it gets struck by a meteor shower. To access the control room and regain control of the ship, you must clear a certain number of meteors on the base floor to unlock the door. Once the door is open, you can head to the control room to take command of the spaceship once more.
+You are aboard a spaceship traveling through space when it gets struck by a meteor shower. It is your daily routine to clean some meteors.
 
 How to Play Our Game
-You will pass the game upon shooting 10 meteors and enter the control room upstairs.
+You will need to grab the bullet on the desk beside you (which will provide you some bullets and do our daily cleaning routine) and shoot as many meteors (that are flying around) as possible
 
-To grab the bullet:
+To grab the bullet: Press the trigger button on the left controller.
 To fire the bullet: Press the trigger button of the right controller. (Make sure to press all the way in, otherwise it will not be detected).
-To teleport:
+To teleport: Press the joystick button on the right controller.
 
 Downloaded packages or objects used
 1. Sci-Fi Styled Modular Pack https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
