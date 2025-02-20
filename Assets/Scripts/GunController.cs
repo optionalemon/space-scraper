@@ -31,7 +31,7 @@ public class GunController : MonoBehaviour
     }
 
     public void loadBullets() {
-        bullets += 100;
+        bullets += 1000;
         Debug.Log("Loaded bullets, total bullets now: " + bullets);
     }
 }
