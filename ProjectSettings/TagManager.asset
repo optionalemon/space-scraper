@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Meteor
   - Bullet
+  - Spaceship
   layers:
   - Default
   - TransparentFX
