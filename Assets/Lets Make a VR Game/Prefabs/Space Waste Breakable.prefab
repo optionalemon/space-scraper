@@ -418,7 +418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1492457292214062565
 Transform:
   m_ObjectHideFlags: 0
@@ -677,6 +677,7 @@ GameObject:
   - component: {fileID: 7601683434328506915}
   - component: {fileID: 3646610492869476832}
   - component: {fileID: 5654031355843548969}
+  - component: {fileID: -1008095572582616886}
   m_Layer: 0
   m_Name: Space Waste Breakable
   m_TagString: Untagged
@@ -766,3 +767,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b579d1d43e95cf459ab38d9136f5d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-1008095572582616886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4618974337585498635}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
+  m_Center: {x: 0.05977195, y: -0.031868033, z: 0.07083695}
