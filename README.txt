@@ -23,6 +23,9 @@ The main shooting logic is implemented through GunController.cs (manually coded)
 3. Grab Mechanism
 The grab system is implemented through the Grab.cs script, allowing users to pick up and drop objects using a grab action. When the grab button is pressed, a SphereCast detects nearby objects within a defined grab radius, prioritizing the closest one. If an object is grabbed, it becomes a child of the controller, and its Rigidbody is set to kinematic to disable physics interactions. Haptic feedback is triggered upon grabbing, and an optional grab sound can be played. When the grab button is released, the object is detached, and its Rigidbody is re-enabled. If the grabbed object is a bullet, it is destroyed and restocked in the gun's inventory. Additionally, the object's velocity is adjusted based on the controller's movement for a more natural throwing effect.
 
+4.Score Management
+The ScoreManager.cs script handles the game's scoring system, tracking the player's score and updating the UI accordingly. It uses a singleton pattern to ensure only one instance exists. The player's score is displayed using a TextMeshProUGUI element, which updates dynamically whenever points are added. The AddScore() method increases the score and checks if the player has reached 100 points, triggering a win condition. When the player wins, a win message is displayed, and a debug message is logged. The system ensures that the win condition is triggered only once, preventing multiple activations.
+
 Downloaded packages or objects used
 1. Sci-Fi Styled Modular Pack https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
 - Used Prefabs inside to build spaceship and the details
