@@ -8,6 +8,8 @@ public class GunController : MonoBehaviour
     
     public Transform firePoint;
     public float secondsBetweenShoot = 0.2f;
+    public AudioClip shootSound; 
+    private AudioSource audioSource;
     float trackShoot;
 
     private int bullets = 0;
@@ -15,6 +17,7 @@ public class GunController : MonoBehaviour
     void Start()
     {
    	shoot.action.Enable(); 
+    audioSource = GetComponent<AudioSource>();
     }
 
     void Update() 
@@ -24,6 +27,12 @@ public class GunController : MonoBehaviour
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             bullet.transform.rotation = firePoint.rotation * Quaternion.Euler(90, 0, 0);
+            
+            if (audioSource != null && shootSound != null)
+            {
+                audioSource.PlayOneShot(shootSound);
+            }
+
             trackShoot = secondsBetweenShoot;
             bullets--;
         }
