@@ -33,7 +33,7 @@ public class VRGrab : MonoBehaviour
             gunController = gun.GetComponent<GunController>();
         }
 
-        grabMask = LayerMask.GetMask("Grabbable", "Bullet");
+        grabMask = LayerMask.GetMask("Grabbable", "Bullet", "Ladder");
 
         grabAction.action.Enable();
         haptic.action.Enable();
