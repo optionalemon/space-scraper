@@ -25,6 +25,8 @@ public class VRGrab : MonoBehaviour
     public GameObject gun;
     private GunController gunController;
 
+    public AudioClip grabSound; 
+    private AudioSource audioSource; 
     void Start()
     {
         if (grabAction == null || haptic == null)
@@ -40,6 +42,12 @@ public class VRGrab : MonoBehaviour
 
         grabAction.action.performed += OnActionPerformed;
         grabAction.action.canceled += OnActionCanceled;
+
+         audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();  
+        }
     }
 
     void OnActionPerformed(InputAction.CallbackContext ctx)
@@ -80,6 +88,12 @@ public class VRGrab : MonoBehaviour
             grabbedObject.transform.position = transform.position;
             grabbedObject.transform.parent = transform;
             Debug.Log(grabbedObject.layer);
+
+
+            if (grabSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(grabSound);  
+            }
         }
     }
 
