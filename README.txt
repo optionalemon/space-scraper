@@ -10,6 +10,9 @@ To teleport: Press the grip button on the right controller.
 
 When a meteor is hit by a bullet: If you shoot a meteor, it will break into pieces, and the total meteor shot count score will be displayed on the UI.
 
+BONUS STORY
+Discover a button near a spaceship door, and use your left or right hand controller grip button to press the button down. A secret door will be opened that will lead you to a secret room. Teleport to the area and climb the ladder using your right hand controller grip button. You will reach a secret upper level control room and gain control of the spaceship!
+
 Game Logic / Mechanisms
 1. Teleportation Mechanism
 For teleporting, it is implemented through the "Teleport Area" in the hierarchy. The Box Collider objects of the floor are specified here, and users are only able to teleport to those specific locations, and not to invalid locations (e.g. outside the spaceship)
