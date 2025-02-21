@@ -10,6 +10,13 @@ To teleport: Press the grip button on the right controller.
 
 When a meteor is hit by a bullet: If you shoot a meteor, it will break into pieces, and the total meteor shot count score will be displayed on the UI.
 
+Game Logic / Mechanisms
+1. Teleportation Mechanism
+For teleporting, it is implemented through the "Teleport Area" in the hierarchy. The Box Collider objects of the floor are specified here, and users are only able to teleport to those specific locations, and not to invalid locations (e.g. outside the spaceship)
+
+2. Shooting Mechanism
+The main shooting logic is implemented through GunController.cs (manually coded), which is attached to the XR Origin (XR Rig). An empty game object called "fire_point" is also attached to the Sci Fi Pistol under the Right Controller, which serves as the point of instantiation of the bullet when the user fires the gun (presses the trigger button).
+
 Downloaded packages or objects used
 1. Sci-Fi Styled Modular Pack https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
 - Used Prefabs inside to build spaceship and the details
