@@ -6,7 +6,7 @@ You will need to grab the bullet on the desk beside you (which will provide ammu
 
 To grab the bullet: Press the grip button on the left controller. (Each bullet grabbed will provide 1,000 actual shooting bullets, which will be displayed on the UI.).
 To fire the bullet: Press the trigger button of the right controller. (Make sure to press all the way in, otherwise it will not be detected).
-To teleport: Press the joystick button on the right controller.
+To teleport: Press the grip button on the right controller.
 
 When a meteor is hit by a bullet: If you shoot a meteor, it will break into pieces, and the total meteor shot count score will be displayed on the UI.
 
