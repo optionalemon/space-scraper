@@ -76,7 +76,7 @@ public class Breakable : MonoBehaviour
             }
             piece.SetActive(true);
             piece.transform.parent = null;
-            Destroy(piece, 3f);
+            Destroy(piece, 1f);
         }
         gameObject.SetActive(false);
     }
