@@ -22,3 +22,7 @@ Downloaded packages or objects used
 - Used a bullet prefab for the shooting (SM_Bullet_06.prefab). The prefab does NOT come with the script (Bullet.cs), Capsule Collider, and the attached Rigidbody component. All three were added manually by the team.
 - A different bullet prefab (SM_Bullet_05.prefab) is used for ammunition filling (grabbing bullets). The grabbing mechanism was manually coded in the Grab.cs script, which was attached to the controller component.
 
+Audio:
+shoot: https://freesound.org/people/jalastram/sounds/362461/
+grab: https://freesound.org/people/Christopherderp/sounds/333041/
+rock: https://freesound.org/people/newlocknew/sounds/631485/s
