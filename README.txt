@@ -8,7 +8,7 @@ To grab the bullet: Press the grip button on the left controller. (Each bullet g
 To fire the bullet: Press the trigger button of the right controller. (Make sure to press all the way in, otherwise it will not be detected).
 To teleport: Press the joystick button on the right controller.
 
-When a meteor is hit by a bullet: If you shoot a meteor, it will break into pieces, and the total meteor shot count will be displayed on the UI.
+When a meteor is hit by a bullet: If you shoot a meteor, it will break into pieces, and the total meteor shot count score will be displayed on the UI.
 
 Downloaded packages or objects used
 1. Sci-Fi Styled Modular Pack https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
